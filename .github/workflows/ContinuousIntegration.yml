@@ -21,7 +21,7 @@ jobs:
       with:
         dotnet-version: 5.0
     - name: Restore dependencies
-      run: dotnet restore ./SignUpBackend.csproj
+      run: dotnet restore C:\Users\vivekgujari\Desktop\CodingJavaScriptAndCSharp\SignUpBackend\SignUpBackend\SignUpBackend.sln
     - name: Build
       run: dotnet build --no-restore
     - name: Test

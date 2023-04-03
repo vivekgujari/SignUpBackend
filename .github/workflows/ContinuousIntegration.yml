@@ -23,6 +23,6 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore SignUpBackend/SignUpBackend.csproj
     - name: Build
-      run: dotnet build --no-restore SignUpBackend/SignUpBackend.sln
+      run: dotnet build --no-restore SignUpBackend/SignUpBackend.csproj
     - name: Test
       run: dotnet test SignUpBackendTest/SignUpBackendTest.csproj
